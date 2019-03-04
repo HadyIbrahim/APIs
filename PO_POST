@@ -1,0 +1,26 @@
+
+http://555.1850.355.16661:8000/SAP/HANDHELD/ZBAPI_HANDHELD_PO_POST?SAP-CLIENT=100
+BODY
+{
+  "USERNAME": "HADY",
+  "PASSWORD": "1",
+  "PO_NO": "9900000006",
+  "PLANT": "ES00",
+  "STORAGE": "QW25",
+  "ACTION": "CHK",
+  "INPUT": [
+    {
+      "PO_ITEM": "1051",
+      "PRODUCT": "BXS-35",
+      "OPEN_QTY": "1",
+      "SCAN_QTY": "1"
+    },
+    {
+      "PO_ITEM": "1051",
+      "PRODUCT": "BXS-35",
+      "OPEN_QTY": "1",
+      "SCAN_QTY": "1"
+    }
+  ]
+}
+
