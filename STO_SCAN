@@ -1,0 +1,63 @@
+
+
+http://105555.22221:8000/SAP/HANDHELD/ZBAPI_HANDHELD_STO_SCAN?SAP-CLIENT=100
+
+
+BODY
+{
+  "MAT_DOC" :"4900000193",
+  "ZUSER":"hady",
+  "PASSWORD": "1"
+}  
+
+OUTPUT
+
+---------------
+{
+    "ERROR": "",
+    "PLANT": "ES00",
+    "PLANT_DESC": "Allocated Plant",
+    "STO": "9900000006",
+    "SLOCATION_DATA": [
+        {
+            "LGORT": "0001",
+            "LGOBE": "0001"
+        },
+        {
+            "LGORT": "AI00",
+            "LGOBE": "م.فحص اسيوط"
+        },
+        
+       
+
+    ],
+    "STO_DATA": [
+        {
+            "ITEM_NO": "0002",
+            "MATNR": "GF-18H-G",
+            "WERKS": "ES00",
+            "MENGE": "8.000",
+            "STO": "9900000006",
+            "EAN_CODE": "6221127005820",
+            "MAKTX": "هوم "
+        },
+        {
+            "ITEM_NO": "0004",
+            "MATNR": "SJ-48C(SL)",
+            "WERKS": "ES00",
+            "MENGE": "8.000",
+            "STO": "9900000006",
+            "EAN_CODE": "6221127005608",
+            "MAKTX": "ثلاجه شارب 2 باب   "
+        },
+        {
+            "ITEM_NO": "0006",
+            "MATNR": "SJ-PC58A(ST)",
+            "WERKS": "ES00",
+            "MENGE": "8.000",
+            "STO": "9900000006",
+            "EAN_CODE": "6221127007596",
+            "MAKTX": " شارب Cشاشة "
+        }
+    ]
+}
